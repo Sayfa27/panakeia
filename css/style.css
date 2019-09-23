@@ -1,0 +1,336 @@
+/*-----Author Info
+
+Name: Sadia Afrin Sayfa
+Mail: sadiasayfa123@gmail.com
+website: none
+*/
+
+/*-
+======Index===
+1.Fusce at
+2.Facilisis
+3.Ante donec
+4.Blandit rhoncus
+5.Placerat
+=========== 
+*/
+
+/* GLOBAL CSS */
+
+h1{
+	font-size: 25px;
+	color: white;
+
+}
+h2{
+
+}
+p{
+	color: white;
+	font-size: 30px;
+
+}
+.img-centre{
+	margin: 0 auto;
+	display: block;
+}
+.no-padding{
+	padding: 0px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* header */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+   background-color: black;
+   color: white;
+   border-radius: 25px;
+}
+
+
+a.nav-link.js-scroll-trigger.active {
+    background-color: #dd4b2b;
+    border: none;
+    border-radius: 25px;
+    padding: 9px 22px;
+}
+.fixed-top {
+    background-color: white;
+}
+.fa.fa-home{color: black;
+    font-size: 40px;
+}
+/* Fusce at */
+.sec-1{
+	background: url(../img/banner.png)top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.sec-1 h2{
+	color: white;
+	font-size: 50px;
+	padding-top: 470px;
+	padding-bottom: 25px;
+    font-style: bold;
+
+}
+.sec-1 p{
+	color: white;
+	font-size: 30px;
+	padding-bottom: 110px;
+    font-style: light;
+}
+.sec-1-img{
+
+}
+.sec-1-img h1{
+	font-size: 25px;
+	color: white;
+	
+}
+.sec-1-img p{
+	font-size: 15px;
+}
+.btn-sec-1 {
+    color: orange;
+    display: block;
+    margin: 0 auto 130px;
+    background-color: white;
+    padding: 15px 42px;
+    border-radius: 30px;
+    border:none;
+}
+.btn-sec-1:hover{
+	background-color: orange;
+	color: white;
+	
+}
+
+
+/*  Facilisis   */
+.sec-2{
+	background-color: #edeff1;
+	text-align: center;
+}
+.sec-2 h2{
+	font-size: 25px;
+	padding: 80px 0px;
+
+}
+.sec-2-img{
+
+}
+.sec-2-img h1 {
+    font-size: 25px;
+    color: black;
+    margin-top: 40px;
+}
+.sec-2-img p {
+    color: black;
+    font-size: 15px;
+    width: 75%;
+    margin: 0 auto;
+}
+.btn-sec-2 {
+    font-size: 17px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 35px;
+    margin: 35px 0px 115px;
+}
+
+/*---------------Ante donec--------------------------*/
+.sec-3{
+	background: url(../img/sec-3.PNG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: 380px;
+
+}
+.sec-3 h2{
+	padding-top: 90px;
+	font-size: 25px;
+	color: white;
+
+}
+.sec-3 p {
+    font-size: 15px;
+    color: white;
+    width: 55%;
+    margin: 0 auto;
+}
+.sec-3-log-in {
+    position: relative;
+    border-radius: 66px;
+    border: 1px solid white;
+    width: 50%;
+    height: 50px;
+    margin: 50px auto;
+    text-align: initial;
+    background-color: #ffffff3d;
+}
+.sec-3-email {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-radius: 24px;
+    padding: 0 20px;
+    background-color: transparent;
+    width:32%;
+    border: none;
+    color: black!impotant;
+}
+.btn-sec-3 {
+    color: red;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -3px;
+    background: white;
+    color: black;
+    padding: 2px 65px;
+    border-radius: 30px;
+}
+
+
+
+
+/*    Section Blandit Rhoncus */
+.sec-4 {
+    margin: 125px 0px 100px;
+}
+.sec-4-info{
+    padding-bottom: 120px;
+
+}
+
+.sec-4-info h2{
+    
+}
+.sec-4-info p {
+    color: black;
+    font-size: 16px;
+}
+.sec-4-img1 img{
+    width: 90%;
+    float: right;
+}
+.sec-4-img2 img{
+    width: 90%;
+    float:left
+}
+.btn-sec-4-btn-2{
+    background-color: #4b4e73;
+    padding: 11px 30px;
+    border-radius: 30px;
+}
+.btn-sec-4-btn-1{
+    background-color: #dd4b2b;
+    padding: 11px 30px;
+    border-radius: 30px;
+}
+
+/* Section Placerat */
+.sec-5{
+    background-color: #d75d0e;
+
+}
+.sec-5-list {
+    text-align: center;
+    font-size: 21px;
+    padding: 90px 0px;
+    color: white;
+  
+}
+.sec-5-list ul{
+    
+}
+.sec-5-list li{
+    list-style:none;
+    
+}
+
+/*    Footer    */
+.foot-bottom{
+    background: url(../img/footer.png)top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.foot{
+    background-color: #0000008a;
+}
+
+b{
+    font-weight: 700;
+}
+.foot-bottom p {
+    color: white;
+    padding: 75px 0px 110px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+
+
+/*     Media Query    */
+
+/*     medium device    */
+@media (min-width: 500.01px) and (max-width: 780px){
+
+/*  header */
+       .navbar-dark .navbar-nav .nav-link:hover{
+
+   width: 70%;
+   text-align: center;
+}
+
+
+a.nav-link.js-scroll-trigger.active {
+    width: 70%;
+    text-align: center;
+}
+
+
+/* Section-3 Facilisis */
+    .sec-3-log-in {
+    margin: 45px auto;
+    width: 90%;
+}
+.sec-3-email {
+    width:55%;    
+}
+.btn-sec-3 {
+    padding: 2px 50px;
+}
+
+/* Section-4 Blandit rhoncus */
+.sec-4-img1 img{
+    width: 100%;
+    float: left;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+
+}
+.sec-4-img2 img{
+    width: 100%;
+    float: left;
+    margin: 10px auto;
+}
+    
